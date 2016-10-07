@@ -181,4 +181,42 @@ a.button:hover {
 	font-size: 14px;
 }
 
+/**media queries**/
+
+@media (max-width: 715px){
+		.search-box input {
+			width: 80%;
+		}
+}
+
+@media (max-width: 425px){
+		.share-button, .profile-img {
+			display: none;
+		}
+}
+
+@media (max-width: 300px){
+		.search-buttons, .search-buttons button{
+			width: 30%;
+			display: inline;
+		}
+
+}
+
+@media(max-width: 800px){
+		img{
+			width:30%;
+		}
+
+}
+
+@media(max-width: 522px){
+	.right-site-links, .left-site-links{
+		margin: 0 auto;
+		text-align: center;
+		width:90%;
+
+}	
+
+
 
